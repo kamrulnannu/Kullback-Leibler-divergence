@@ -62,7 +62,7 @@ def compute_exponential_cdf(bucket_boundaries, rate):
 def ComputeKLDivergence():
     if len(sys.argv) != 3:
         print("Error: Incorrect number of argument(s)")
-        print("Usage: %s <number_of_items_in_measured_distributiona> "
+        print("Usage: %s <number_of_items_in_measured_distribution> "
               "<number_of_buckets>" % (sys.argv[0]))
         sys.exit(1)
 
